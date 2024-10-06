@@ -14,6 +14,7 @@ The following third-party components are used in this project. Each is licensed 
 - **langchain-openai** - MIT License
 - **pandas** - BSD License
 - **requests** - Licensed under the Apache License 2.0
+- **scipy** - BSD License
 - **sympy** - Apache Software License
 
 Please refer to each component's documentation and license for more details.

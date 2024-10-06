@@ -5,4 +5,5 @@ numpy
 langchain-openai
 pandas
 requests
+scipy
 sympy
