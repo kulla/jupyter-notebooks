@@ -11,12 +11,11 @@ DAY=$(date +%d)
 # leading/trailing spaces or hyphens.
 FILENAME=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | tr -s ' ' '-' | sed 's/^[ \-]*//;s/[ \-]*$//')
 
-# Create the directory structure if it doesn't exist
-DIR="$NOTEBOOK_DIR/$YEAR"
-mkdir -p "$DIR"
-
 # Define the notebook path
-NOTEBOOK_PATH="$DIR/$YEAR-$MONTH-$DAY-$FILENAME.ipynb"
+NOTEBOOK_PATH="$NOTEBOOK_DIR/$YEAR/$YEAR-$MONTH-$DAY-$FILENAME.ipynb"
+
+# Create the directory structure if it doesn't exist
+mkdir -p "$(dirname "$NOTEBOOK_PATH")"
 
 # Create the new jupyter notebook
 cp template.ipynb "$NOTEBOOK_PATH"
