@@ -8,7 +8,7 @@ The following third-party components are used in this project. Each is licensed 
 
 - **jupyter** - BSD License
 - **jupyterlab** - BSD License
-- **jupyter_ai** - BSD License
+- **jupyter-ai** - BSD License
 - **matplotlib** - Python Software Foundation License
 - **numpy** - BSD License
 - **openai** - MIT License

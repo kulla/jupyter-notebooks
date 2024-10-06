@@ -1,5 +1,5 @@
 jupyter
-jupyter_ai
+jupyter-ai
 matplotlib
 numpy
 openai
