@@ -1,5 +1,8 @@
 jupyter
+jupyter_ai
 matplotlib
 numpy
+openai
 pandas
+requests
 sympy
