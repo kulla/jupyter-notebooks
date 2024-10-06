@@ -1,5 +1,7 @@
 #!/bin/bash
 
+NOTEBOOK_DIR="notebooks"
+
 # Get the current year, month, and day from the system's date
 YEAR=$(date +%Y)
 MONTH=$(date +%m)
@@ -14,11 +16,11 @@ read -p "Enter filename: " INPUT
 FILENAME=$(echo "$INPUT" | tr '[:upper:]' '[:lower:]' | tr -s ' ' '-' | sed 's/^[ \-]*//;s/[ \-]*$//')
 
 # Create the directory structure if it doesn't exist
-DIR="notebooks/$YEAR"
+DIR="$NOTEBOOK_DIR/$YEAR"
 mkdir -p "$DIR"
 
 # Define the notebook path
 NOTEBOOK_PATH="$DIR/$YEAR-$MONTH-$DAY-$FILENAME.ipynb"
 
 # Open the jupyter notebook
-jupyter notebook "$NOTEBOOK_PATH"
+jupyter lab --notebook-dir="$NOTEBOOK_DIR" "$NOTEBOOK_PATH"
