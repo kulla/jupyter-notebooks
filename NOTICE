@@ -1,0 +1,19 @@
+Private Jupyter Notebook Collection
+Copyright 2024 Stephan Kulla ("Kulla")
+
+This product includes software developed by Stephan Kulla ("Kulla").
+
+Third-Party Components and Licenses:
+The following third-party components are used in this project. Each is licensed under its respective license:
+
+1. **jupyter** - BSD License
+2. **jupyterlab** - BSD License
+3. **jupyter_ai** - BSD License
+4. **matplotlib** - Python Software Foundation License
+4. **numpy** - BSD License
+5. **openai** - MIT License
+6. **pandas** - BSD License
+7. **requests** - Licensed under the Apache License 2.0
+8. **sympy** - Apache Software License
+
+Please refer to each component's documentation and license for more details.
