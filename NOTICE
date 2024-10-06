@@ -11,8 +11,7 @@ The following third-party components are used in this project. Each is licensed 
 - **jupyter-ai** - BSD License
 - **matplotlib** - Python Software Foundation License
 - **numpy** - BSD License
-- **openai** - MIT License
-- **openai-chat** - MIT License
+- **langchain-openai** - MIT License
 - **pandas** - BSD License
 - **requests** - Licensed under the Apache License 2.0
 - **sympy** - Apache Software License

@@ -2,8 +2,7 @@ jupyter
 jupyter-ai
 matplotlib
 numpy
-openai
-openai-chat
+langchain-openai
 pandas
 requests
 sympy
