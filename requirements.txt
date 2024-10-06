@@ -3,6 +3,7 @@ jupyter_ai
 matplotlib
 numpy
 openai
+openai-chat
 pandas
 requests
 sympy
