@@ -18,7 +18,7 @@ NOTEBOOK_PATH="$NOTEBOOK_DIR/$YEAR/$YEAR-$MONTH-$DAY-$FILENAME.ipynb"
 mkdir -p "$(dirname "$NOTEBOOK_PATH")"
 
 # Create the new jupyter notebook
-cp template.ipynb "$NOTEBOOK_PATH"
+cp "$NOTEBOOK_DIR/template.ipynb" "$NOTEBOOK_PATH"
 
 sed -i "s/NOTEBOOK_TITLE/$NOTEBOOK_TITLE/g" "$NOTEBOOK_PATH"
 sed -i "s/YEAR/$YEAR/g" "$NOTEBOOK_PATH"
